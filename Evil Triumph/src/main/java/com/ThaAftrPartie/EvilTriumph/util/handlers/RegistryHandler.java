@@ -1,8 +1,8 @@
 package com.ThaAftrPartie.EvilTriumph.util.handlers;
 
+import com.ThaAftrPartie.EvilTriumph.Main;
 import com.ThaAftrPartie.EvilTriumph.init.ModBlocks;
 import com.ThaAftrPartie.EvilTriumph.init.ModItems;
-import com.ThaAftrPartie.EvilTriumph.util.interfaces.IHasModel;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -36,30 +36,15 @@ public class RegistryHandler {
 		{
 			
 			
-			for(Item item: ModItems.ITEMS)
-			{
-				if(item instanceof IHasModel)
-				{
-					((IHasModel)item).registerModels();
-					
-					
-				}
-				
-			}
-			
-			
-			
-			for(Block block: ModBlocks.BLOCKS)
-			{
-				if(block instanceof IHasModel)
-				{
-					((IHasModel)block).registerModels();
-					
-					
-				}
-				
-			}
-				
+			for(Item item : ModItems.ITEMS)
+	        {
+	            Main.proxy.registerItemRednerer(item, 0, "inventory");
+	        }
+	        
+	        for(Block block : ModBlocks.BLOCKS)
+	        {
+	            Main.proxy.registerItemRednerer(Item.getItemFromBlock(block), 0, "inventory");
+	        }
 			
 	
 }
