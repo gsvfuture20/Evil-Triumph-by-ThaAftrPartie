@@ -38,12 +38,12 @@ public class RegistryHandler {
 			
 			for(Item item : ModItems.ITEMS)
 	        {
-	            Main.proxy.registerItemRednerer(item, 0, "inventory");
+	            Main.proxy.registerItemRenderer(item, 0, "inventory");
 	        }
 	        
 	        for(Block block : ModBlocks.BLOCKS)
 	        {
-	            Main.proxy.registerItemRednerer(Item.getItemFromBlock(block), 0, "inventory");
+	            Main.proxy.registerItemRenderer(Item.getItemFromBlock(block), 0, "inventory");
 	        }
 			
 	
