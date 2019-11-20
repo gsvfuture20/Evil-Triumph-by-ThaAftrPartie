@@ -1,9 +1,7 @@
-package com.ThaAftrPartie.EvilTriumph.objects.blocks;
+package com.ThaAftrPartie.EvilTriumph.init;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import com.ThaAftrPartie.EvilTriumph.init.BlockBase;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

@@ -3,7 +3,6 @@ package com.ThaAftrPartie.EvilTriumph.init;
 import java.util.List;
 
 import com.ThaAftrPartie.EvilTriumph.Main;
-import com.ThaAftrPartie.EvilTriumph.objects.blocks.ModBlocks;
 import com.ThaAftrPartie.EvilTriumph.util.interfaces.IHasModel;
 
 import net.minecraft.block.Block;

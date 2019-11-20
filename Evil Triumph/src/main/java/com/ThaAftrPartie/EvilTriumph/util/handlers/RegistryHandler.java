@@ -1,7 +1,7 @@
 package com.ThaAftrPartie.EvilTriumph.util.handlers;
 
+import com.ThaAftrPartie.EvilTriumph.init.ModBlocks;
 import com.ThaAftrPartie.EvilTriumph.init.ModItems;
-import com.ThaAftrPartie.EvilTriumph.objects.blocks.ModBlocks;
 import com.ThaAftrPartie.EvilTriumph.util.interfaces.IHasModel;
 
 import net.minecraft.block.Block;
