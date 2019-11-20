@@ -1,6 +1,5 @@
 package com.ThaAftrPartie.EvilTriumph.init;
 
-	import com.ThaAftrPartie.EvilTriumph.objects.blocks.BlockBase;
 	import java.util.ArrayList;
 	import java.util.List;
 
