@@ -14,7 +14,7 @@ import net.minecraft.item.ItemStack;
 		public EvilTriumphTab(String label) 
 		{
 			super("EvilTriumphTab");
-			this.setBackgroundImageName("");
+			this.setBackgroundImageName("okonoth_ingot.png");
 		}
 		
 		@Override
