@@ -1,10 +1,10 @@
 package com.ThaAftrPartie.EvilTriumph.tabs;
 
 
-	import com.ThaAftrPartie.EvilTriumph.init.ItemInit;
+import com.ThaAftrPartie.EvilTriumph.init.ModItems;
 
 import net.minecraft.creativetab.CreativeTabs;
-	import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemStack;
 
 	
 	public class EvilTriumphTab extends CreativeTabs
@@ -20,7 +20,7 @@ import net.minecraft.creativetab.CreativeTabs;
 		@Override
 		public ItemStack getTabIconItem() 
 		{
-			return new ItemStack(ItemInit.OKONOTH_INGOT);
+			return new ItemStack(ModItems.OKONOTH_INGOT);
 		}
 	}
 

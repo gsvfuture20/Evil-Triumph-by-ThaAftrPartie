@@ -1,6 +1,9 @@
 package com.ThaAftrPartie.EvilTriumph.objects.blocks;
 
+import com.ThaAftrPartie.EvilTriumph.init.ModBlocks;
+import com.ThaAftrPartie.EvilTriumph.init.ModItems;
 import com.ThaAftrPartie.EvilTriumph.tabs.EvilTriumphTab;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
@@ -25,8 +28,8 @@ public class OkonothBlock extends Block {
 			setSoundType(SoundType.METAL);
 			//setBlockUnbreakable();
 			
-			BlockInit.BLOCKS.add(this);
-			ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+			ModBlocks.BLOCKS.add(this);
+			ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
 		}
 }
 	
