@@ -9,12 +9,6 @@ import net.minecraft.item.Item;
 
 public class ItemBase extends Item{
 
-public void registerModels() 
-{
-    Main.proxy.registerItemRednerer(this, 0, "inventory");
-    
-    
-}
 
 	
 

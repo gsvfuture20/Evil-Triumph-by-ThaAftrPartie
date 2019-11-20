@@ -1,7 +1,5 @@
 package com.ThaAftrPartie.EvilTriumph.objects.blocks;
 
-import com.ThaAftrPartie.EvilTriumph.init.BlockInit;
-import com.ThaAftrPartie.EvilTriumph.init.ItemInit;
 import com.ThaAftrPartie.EvilTriumph.tabs.EvilTriumphTab;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
