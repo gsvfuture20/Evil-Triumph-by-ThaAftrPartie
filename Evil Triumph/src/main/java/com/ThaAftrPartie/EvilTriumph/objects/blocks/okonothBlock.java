@@ -8,11 +8,11 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.ItemBlock;
 
-public class okonothBlock extends Block {
+public class OkonothBlock extends Block {
 
 		
 	
-		public okonothBlock(String name, Material material) 
+		public OkonothBlock(String name, Material material) 
 		{
 			super(material);
 			setUnlocalizedName(name);
