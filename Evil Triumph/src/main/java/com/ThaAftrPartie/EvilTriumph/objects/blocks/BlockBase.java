@@ -1,8 +1,10 @@
-package com.ThaAftrPartie.EvilTriumph.init;
+package com.ThaAftrPartie.EvilTriumph.objects.blocks;
 
 import java.util.List;
 
 import com.ThaAftrPartie.EvilTriumph.Main;
+import com.ThaAftrPartie.EvilTriumph.init.ModBlocks;
+import com.ThaAftrPartie.EvilTriumph.init.ModItems;
 import com.ThaAftrPartie.EvilTriumph.util.interfaces.IHasModel;
 
 import net.minecraft.block.Block;
