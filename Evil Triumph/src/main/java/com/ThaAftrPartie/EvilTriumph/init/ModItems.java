@@ -3,6 +3,8 @@ package com.ThaAftrPartie.EvilTriumph.init;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.ThaAftrPartie.EvilTriumph.objects.items.ItemBase;
+
 import net.minecraft.item.Item;
 
 public class ModItems 

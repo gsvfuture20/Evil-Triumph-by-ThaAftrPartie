@@ -1,9 +1,10 @@
-package com.ThaAftrPartie.EvilTriumph.init;
+package com.ThaAftrPartie.EvilTriumph.objects.items;
 
 import java.util.List;
 import java.util.Set;
 
 import com.ThaAftrPartie.EvilTriumph.Main;
+import com.ThaAftrPartie.EvilTriumph.init.ModItems;
 import com.ThaAftrPartie.EvilTriumph.tabs.evilTriumph;
 import com.ThaAftrPartie.EvilTriumph.util.interfaces.IHasModel;
 import com.google.common.collect.ImmutableMap;
