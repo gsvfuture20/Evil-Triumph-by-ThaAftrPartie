@@ -1,6 +1,5 @@
 package com.ThaAftrPartie.EvilTriumph.objects.items;
 
-import com.ThaAftrPartie.EvilTriumph.Main;
 import com.ThaAftrPartie.EvilTriumph.init.ModItems;
 import com.ThaAftrPartie.EvilTriumph.tabs.evilTriumph;
 
