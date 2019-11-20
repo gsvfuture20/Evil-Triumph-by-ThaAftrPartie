@@ -1,6 +1,0 @@
-{
-   "parent": "block/cube_all",
-   "textures": {
-       "all": "evil_triumph_mod:blocks/okonoth_block.png"
-   }
-}

@@ -1,6 +1,0 @@
-{
-   "parent": "item/generated",
-   "textures": {
-       "layer0": "evil_triumph_mod:items/okonoth_ingot.png"
-   }
-}
