@@ -1,8 +1,8 @@
 package com.ThaAftrPartie.EvilTriumph.objects.items;
 
 import com.ThaAftrPartie.EvilTriumph.init.ModItems;
-import com.ThaAftrPartie.EvilTriumph.tabs.evilTriumph;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 
@@ -18,7 +18,7 @@ public class ItemBase extends Item{
 		
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(evilTriumph.EvilTriumphTab);
+		setCreativeTab(CreativeTabs.MATERIALS);
 		ModItems.ITEMS.add(this);
 		
 		

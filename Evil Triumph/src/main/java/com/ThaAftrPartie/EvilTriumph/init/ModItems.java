@@ -15,10 +15,8 @@ public class ModItems
 	public static final Item INDITH_STICK = new ItemBase("indith_stick");
 	public static final Item OKONOTH_INGOT = new ItemBase("okonoth_ingot");
 	
-	
-	
 }
-
+	
 
 	
 	
