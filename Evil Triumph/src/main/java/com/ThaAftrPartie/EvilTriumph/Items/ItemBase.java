@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Set;
 
 import com.ThaAftrPartie.EvilTriumph.Main;
-import com.ThaAftrPartie.EvilTriumph.init.ItemInit;
 import com.ThaAftrPartie.EvilTriumph.objects.items.ModItems;
 import com.ThaAftrPartie.EvilTriumph.tabs.evilTriumph;
 import com.ThaAftrPartie.EvilTriumph.util.interfaces.IHasModel;
@@ -60,7 +59,6 @@ public class ItemBase extends Item implements IHasModel
 		setRegistryName(name);
 		setCreativeTab(evilTriumph.EvilTriumphTab);
 		ModItems.ITEMS.add(this);
-		ItemInit.ITEMS.add(this);
 		
 		
 	}
